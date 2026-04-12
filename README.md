@@ -1,4 +1,4 @@
-# Compressible Spline Hyperelasticity
+# Compressible Spline-Based Hyperelasticity
 
 This repository provides an implementation of spline-based strain-energy functions for modeling compressible material behavior.
 
