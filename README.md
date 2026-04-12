@@ -11,9 +11,9 @@ $$
 \Psi^{(\bar{I}_1)} +
 \Psi^{(\bar{I}_2)} +
 \Psi^{(J)} +
-g^{(J)} , h^{(\bar{I}1)} +
-i^{(J)} , j^{(\bar{I}2)} +
-k^{(\bar{I}_1)} , l^{(\bar{I}2)}
+g^{(J)}  h^{(\bar{I}1)} +
+i^{(J)}  j^{(\bar{I}2)} +
+k^{(\bar{I}_1)}  l^{(\bar{I}2)}
 $$
 
 This representation enables the modeling of both separable and coupled material responses.
