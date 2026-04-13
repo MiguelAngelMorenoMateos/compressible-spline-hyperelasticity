@@ -8,6 +8,6 @@ function D = load_foam_turbo(mode)
     D = struct();
     D.lambda = T.lambda;
     D.P11    = T.P_MPa;
-    D.dt     = [];   % no time data for Treloar
+    D.dt     = [];   % no time data for foam turbo
     D.w      = 1.0;  % optional weight
 end

@@ -331,7 +331,6 @@ function [A, y, blockIdx] = build_linear_system_block(model, prot, data, blockNa
                 A(row,:) = rowA22;
                 y(row) = 0.0; % since P22 should be 0.
             end
-            % More rows (as many as experimental stress-strain data pairs) are appended.
         end
     end
 end

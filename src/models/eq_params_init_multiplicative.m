@@ -185,7 +185,6 @@ function x = pack_model(model)
     if model.use_J
         x = [x; model.J_vals(:)];
     end
-    %x = [x; model.J_vals(:)];
     if model.use_I1J
         x = [x; model.h_I1_vals(:)];
         x = [x; model.g_J_vals(:)];

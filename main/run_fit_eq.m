@@ -77,7 +77,6 @@ function run_fit_eq()
     pass_Aeq = true;
 
     if pass_Aeq
-        % Two equality constraints:
         % (1) dPsi_vol/dJ (J=1) = 0
         Aeq = zeros(0, numel(x0)); beq = zeros(0,1);
         if model.use_J

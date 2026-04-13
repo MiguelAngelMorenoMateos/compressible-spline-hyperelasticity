@@ -34,7 +34,7 @@ function rvec = loss_function(x, model, prot, data)
         for k = 1:Nm % Loop over data points in this mode (all strain-stress pairs of experimental data)
             row = row + 1;
             lam = D.lambda(k); 
-            F   = p.Fbar(lam); % According to protocol_UT, F is initialized as if it was the incompressible case. Then, lambda2 and 3 will be adjusted in NR loop.
+            F   = p.Fbar(lam); 
             [a,b,c] = model.eval_ab(model, F);
             P_pred = eq_P_from_F(a,b,c,F);
 
