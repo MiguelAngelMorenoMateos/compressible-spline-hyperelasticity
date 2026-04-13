@@ -5,8 +5,7 @@ function model = eq_params_init_wrapper(I1bar_max, I2bar_max, J_max, J_min, opts
 %   model.unpack(x,model) -> model
 %   model.lb() -> lb
 %   model.ub() -> ub
-%   model.eval_ab(model,F) -> [a,b]
-%   model.eval_dabdx(model,F) -> [da_dx, db_dx]
+%   model.eval_ab(model,F) -> [a,b,c]
 %   model.nParams() -> number of params
 
     if nargin < 5 || isempty(opts), opts = struct(); end

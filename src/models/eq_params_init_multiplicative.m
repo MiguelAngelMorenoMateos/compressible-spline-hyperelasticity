@@ -171,7 +171,6 @@ function model = eq_params_init_multiplicative(I1bar_max, I2bar_max, J_max, J_mi
 
     % --- Formulation-agnostic wrappers ---
     model.eval_ab    = @(m,F) eval_ab_univariate(m,F);
-    model.eval_dabdx = @(m,F) eval_dabdx_univariate(m,F);
 end
 
 function x = pack_model(model)
